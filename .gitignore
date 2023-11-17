@@ -167,7 +167,7 @@ data/
 
 # test model records
 !models/records
-models/records/*
+models/records/final-test/*
 !models/records/streamlit
 !models/records/demo’campaign
 !models/records/exemple
