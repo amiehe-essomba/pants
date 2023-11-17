@@ -157,4 +157,35 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/
+
+# VSCode configuration files
+.vscode/
+
+# Data folder
+data/
+
+# test model records
+!models/records
+models/records/*
+!models/records/streamlit
+!models/records/demo’campaign
+!models/records/exemple
+
+!reports/figures
+reports/figures/*
+!reports/figures/final-test2
+!reports/figures/test-classifpatient
+!reports/figures/test-finetuning2
+
+/dataset
+/data/*
+
+.DS_Store
+**/.DS_Store
+src/streamlit/mods/.DS_Store
+src/streamlit/fichiers/*.h5
+
+especes/.DS_Store
+especes
+
